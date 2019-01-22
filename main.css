@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sitepage {
+  height: 100vh;
+  background-image: url(https://i.redd.it/490k8b9lpya21.jpg);
+  background-size: cover;
+}
+
+.container {
+  height: 100%;
+  width: auto;
+  padding: 1em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+}

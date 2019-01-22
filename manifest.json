@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "ExtensionTest",
+  "description": "Test extension to change the backgrund on a new tab",
+  "version": "1.0",
+  "author": "Lucas Moutinho",
+
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "ExtensionTest",
+    "default_popup": "popup.html"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["activeTab"]
+
+}
+
